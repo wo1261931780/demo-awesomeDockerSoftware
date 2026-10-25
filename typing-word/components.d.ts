@@ -27,20 +27,6 @@ declare module 'vue' {
     EditArticle: typeof import('./src/components/article/EditArticle.vue')['default']
     EditBatchArticleModal: typeof import('./src/components/article/EditBatchArticleModal.vue')['default']
     EditSingleArticleModal: typeof import('./src/components/article/EditSingleArticleModal.vue')['default']
-    ElButton: typeof import('element-plus/es')['ElButton']
-    ElCheckbox: typeof import('element-plus/es')['ElCheckbox']
-    ElForm: typeof import('element-plus/es')['ElForm']
-    ElFormItem: typeof import('element-plus/es')['ElFormItem']
-    ElInput: typeof import('element-plus/es')['ElInput']
-    ElInputNumber: typeof import('element-plus/es')['ElInputNumber']
-    ElOption: typeof import('element-plus/es')['ElOption']
-    ElProgress: typeof import('element-plus/es')['ElProgress']
-    ElRadio: typeof import('element-plus/es')['ElRadio']
-    ElRadioButton: typeof import('element-plus/es')['ElRadioButton']
-    ElRadioGroup: typeof import('element-plus/es')['ElRadioGroup']
-    ElSelect: typeof import('element-plus/es')['ElSelect']
-    ElSlider: typeof import('element-plus/es')['ElSlider']
-    ElSwitch: typeof import('element-plus/es')['ElSwitch']
     Empty: typeof import('./src/components/Empty.vue')['default']
     FeedbackModal: typeof import('./src/components/toolbar/FeedbackModal.vue')['default']
     Fireworks: typeof import('./src/components/Fireworks.vue')['default']
@@ -65,8 +51,5 @@ declare module 'vue' {
     VolumeSetting: typeof import('./src/components/toolbar/VolumeSetting.vue')['default']
     WordList: typeof import('./src/components/list/WordList.vue')['default']
     WordListDialog: typeof import('./src/components/dialog/WordListDialog.vue')['default']
-  }
-  export interface ComponentCustomProperties {
-    vLoading: typeof import('element-plus/es')['ElLoadingDirective']
   }
 }
